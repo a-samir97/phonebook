@@ -24,3 +24,7 @@ Building a simple phonebook application using Python Django
 
 # Swagger Page
 ![alt text](https://github.com/a-samir97/phonebook/blob/main/docs/swagger.png)
+
+# Notes and improvements
+- there are a lot of endpoints unused, because I used `ModelViewSet` in my implementation
+  - `improvement suggestion`: to use `GenericViewSet` and use specfic `Mixins`
